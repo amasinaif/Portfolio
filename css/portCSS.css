@@ -1,14 +1,15 @@
-﻿header {
-    border-style: solid;
-    border: rgba(119, 103, 130, 1);
-    background: rgb(206 193 214);
-    text-align: center;
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-}
+﻿
+    header {
+        border: solid 3px rgba(119, 103, 130, 1);
+        background-color: #ffffff;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    
+
 .logo {
     width: 10%;
     margin-right: auto;
@@ -22,14 +23,6 @@ img {
     text-align: center;
     margin: auto;
     display: block;
-}
-nav {
-    border: #000000;
-    border: thin;
-    display: inline;
-    color: #ffffff;
-    padding: 15px;
-    display: flex;
 }
     nav a {
         color: #ffffff;
