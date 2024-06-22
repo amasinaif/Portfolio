@@ -2,52 +2,59 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" content="width=device-width, initial-scale=1">
     <title>Amasi Naif</title>
-    <link rel="stylesheet" href="CSS/portCSS.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/portCSS.css">
+    <style>
+        .navbar-nav a {
+          color: black;
+          font-size: 23px;
+        }
+        .navbar-toggler-icon::before,
+        .navbar-toggler-icon::after {
+          border: none;
+        }
+      </style>
 </head>
 <body>
    <header>
-            <nav class="navbar navbar-expand-sm navbar-light bg-#F2EDEB">
-                <!-- <img class="logo" src="Logo.png" alt="logo"> -->
-                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item ">
-                                <a href="#Home" class="nav-link ">
-                                    Home </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="#Education" class="nav-link">
-                                    Who Am I?                                </a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="#Volunteer" class="nav-link">
-                                    My Work                                </a>
-                            </li>
-        
-                            <li class="nav-item ">
-                                <a href="#Contact" class="nav-link">
-                                    Contact Me
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="Logo.png" alt="Your Logo" height="40"> 
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-center"href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center " href="#">Who Am I</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         </header>
         
     <main>
 
         <div class="div-1">
             <h1>
-                Capture The Moment</h1> 
-           
-            <p>
+                Capture<br> The Moment</h1> 
+                       <p>
                 Welcome to a world where light dances with time, and emotion is frozen in captivating clarity.
                 I believe that every picture tells a story,
                 a story of love, joy, surprise, hope, and sometimes even melancholy.
@@ -57,7 +64,7 @@
             <h1> Who Am I?</h1>
 
             <div class="img">
-                <img class="me" src="Al-bald_me.JPG" alt="me">
+                <img class="me" src="Al-bald_me2.JPG" alt="me">
             </div>
 
             <div class="txt">
@@ -80,12 +87,12 @@
 
 
         <div class="div-3">
-            <h1>My Work</h1>
+            <h1>Services</h1>
 
 
             <div class="div-31">
                 <div class="img1">
-                    <img src="Coffee.JPG" alt="me">
+                    <img src="Coffee2.JPG" alt="me">
                 </div>
                 <div class="txt1">
                     <h2>Coffee</h2>
@@ -94,11 +101,14 @@
                         light dances with time, and
                         emotion is frozen in captivating clarity.
                     </p>
+                    <button>Book Now</button>
                 </div>
             </div>
 
             <div class="div-32">
-
+                <div class="img2">
+                    <img src="Al-bald_2.JPG" alt="me">
+                </div>
                 <div class="txt2">
                     <h2>Arch</h2>
                     <p>
@@ -106,15 +116,14 @@
                         light dances with time, and
                         emotion is frozen in captivating clarity.
                     </p>
+                    <button>Book Now</button>
                 </div>
-                <div class="img2">
-                    <img src="Al-bald_9.JPG" alt="me">
-                </div>
+                
             </div>
 
             <div class="div-33">
                 <div class="img3">
-                    <img src="Lenahya6.JPG" alt="me">
+                    <img src="Lenahya2.JPG" alt="me">
                 </div>
                 <div class="txt3">
                     <h2>Events</h2>
@@ -123,6 +132,7 @@
                         light dances with time, and
                         emotion is frozen in captivating clarity.
                     </p>
+                    <button>Book Now</button>
                 </div>
             </div>
 
@@ -131,14 +141,16 @@
     </main>
 
     <footer class="div-4">
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <p>
             Feel free to reach out and connect with me
-            on Instagram (<a href="https://www.instagram.com/amasinaif_/"> @amasinaif_ )</a> to explore my
+            on Instagram (<a href="https://www.instagram.com/amasinaif_/"> @amasinaif_ )</a> and on TikTock (<a href="https://www.tiktok.com/@amasinaif">@amasinaif)</a> to explore my
             captivating photography portfolio and stay
             updated on my latest visual adventures!
         </p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 </html>
