@@ -34,14 +34,20 @@ a.active {
 
 
 }
-
+.form{
+    padding-top: 50px;
+    color: rgba(119, 103, 130, 1);
+    text-align: center;
+}
 .div-1 {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     background: #ffffff;
     color: rgba(119, 103, 130, 1);
     padding-left: 50px;
     padding-right: 50px;
+    text-align: center;
+
 }
 .div-2 {
     padding: 50px;
@@ -64,6 +70,16 @@ a.active {
     padding: 50px;
     background: #ffffff;
     color: rgba(119, 103, 130, 1);
+    text-align: center;
+
+}
+.div-3W {
+    padding: 50px;
+    background: #ffffff;
+    color: rgba(119, 103, 130, 1);
+    justify-content: center;
+    text-align: center;
+
 }
 .div-31, .div-32, .div-33 {
     display: flex;
@@ -71,34 +87,31 @@ a.active {
     border: rgba(119, 103, 130, 1) 2px solid;
     margin: 30px;
 }
+.div-31W, .div-32W, .div-33W {
+    display: inline-block;
+    margin: 5px;
+}
 .img1, .img2, .img3{
    width: 20%;
 }
 
-.img1 img{
-    width: 180px;
-    height: auto;
-    border-radius: 50px;
-        border: rgba(119, 103, 130, 1) 1px solid;
-    margin: 20px;
-}
-.img2 img{
+.img1 img, .img2 img, .img3 img {
     width: 180px;
     height: auto;
     border-radius: 50px;
     border: rgba(119, 103, 130, 1) 1px solid;
     margin: 20px;
 }
-.img3 img{
+.img1W img, .img2W img, .img3W img {
     width: 180px;
     height: auto;
     border-radius: 50px;
     border: rgba(119, 103, 130, 1) 1px solid;
-    margin: 20px;
+    margin: 1px;
 }
-
 .txt1, .txt2, .txt3 {
     padding-top: 20px;
+    padding-left: 20px;
     font-size: 55%;
     text-align: center;
     margin: auto;
@@ -109,15 +122,16 @@ h1 {
 .div-3 button {
     margin-bottom: 20px;
     font-size: 200%;
-    border-radius: 50px;
-    background-color: white; 
-    color: rgba(119, 103, 130, 1);
-    border: rgba(119, 103, 130, 1) 1px solid;
-}
-  
-.div-3 button:hover {
     background-color: rgba(119, 103, 130, 1);
     color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.div-3 button:hover {
+    background: #998CA0;
+    transition: 1s all;
   }
 .div-3 p {
     padding-left: 100px;
@@ -137,3 +151,40 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  } 
+  input[type=submit] {
+  background-color: rgba(119, 103, 130, 1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;  
+  }
+  input[type=submit]:hover {
+     background: #998CA0;
+    transition: 1s all;
+  }
+  .contact-form{
+    margin-bottom: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    color: rgb(0, 0, 0);
+  }
+  @media (min-width: 360px){
+    .contact-form{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+  }
+  
